@@ -1,0 +1,14 @@
+body {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background: url("../images/fadedFlagBG.jpg") ;
+}
+
+#pgHead{
+
+}
+@media (min-width: 992px) {
+    .navbar {
+        padding-right: 15px;
+    }
+}
