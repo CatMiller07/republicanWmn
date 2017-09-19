@@ -1,12 +1,12 @@
+
 body {
-    padding-top: 80px;
-    padding-bottom: 20px;
-    background: url("../images/fadedFlagBG.jpg") ;
-}
-
-#pgHead{
+   /* padding-top: 8px;
+    padding-bottom: 20px; */
+    font-family: 'Noto Serif', serif;
 
 }
+
+
 @media (min-width: 992px) {
     .navbar {
         padding-right: 15px;
