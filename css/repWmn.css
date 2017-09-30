@@ -6,26 +6,26 @@
     margin-right: 10px;
 
 }
+
 figcaption{
 
     text-align:center;
 }
+
 #presImg{
 
     width: 120px;
     height: 120px;
-
 }
 
 #presWords{
 
     padding-left: 8px;
     padding-right: 10px;
-
 }
 
 
-.pure-g-r > div{box-sizing: border-box;}.writeup, .ad {padding: 1em; margin-left: 1em;}
+/**.pure-g-r > div{box-sizing: border-box;}.writeup, .ad {padding: 1em; margin-left: 1em;} **/
 
 /** menu -- css **/
 .hdr{

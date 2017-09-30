@@ -1,82 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--  --------------------jQuery------------------ -->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/src/core.min.js"></script>
-    <script type="text/javascript" src="js/jquery.flexisel.js"></script>
-    <!--  --------------------stylesheets------------------ -->
-    <!--  --Pure Css-- -->
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
-     integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-    <!--  --custom-- -->
-    <link type="text/css" rel="stylesheet" href="css/carousel.css"/>
-    <link type="text/css" rel="stylesheet" href="css/navbar-offcanvas.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
-    <link rel="stylesheet" href="css/repWmn.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Parallax Template - Materialize</title>
 
-    <title>Broward Rep Women</title>
-    <style>
-
-    </style>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-
 <body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo"><img src="images/fl-fed-of-rep-women-logoSm.gif"/></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+      </ul>
 
-<div class="hdr pure-g-r">
-    <div class="pure-u-1-3">
-        <img class=" pure-img" id="logo" alt="Broward Rep Women" src="images/florida-republican-women-logo.png">
-
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
+  </nav>
 
-      <div class="pure-u-1-3 ">
-        <h2> Broward Republican Women's Club</h2>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center White-text text-darken-4">Broward Republican Women's Club, Federated</h1>
+        <!--
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+
+        <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div>
+        <br><br>
+         -->
       </div>
+    </div>
+    <div class="parallax"><img src="images/american-flag-unfurled__340.jpg" alt="Unsplashed background img 1"></div>
+  </div>
 
-      <div class="pure-u-1 pure-u-md-1-3">
-             &nbsp
-      </div>
 
-</div>
+  <div class="container">
+    <div class="section">
 
-<!-- NAV Bar -->
-<div class="hdr2 custom-menu-wrapper">
-    <div class="pure-menu custom-menu custom-menu-top">
-        <a href="#" class="pure-menu-heading custom-menu-brand">
-            <!--
-           <img id="logo2" class="pure-img picture"  alt="Broward Rep Women" src="images/fl-fed-of-rep-women-logoSm.gif">
-             -->
-       </a>
-       <a href="#" class="custom-menu-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
-   </div>
-   <div class="pure-menu pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">
-       <div class="custom-menu-screen"></div>
-       <ul class="pure-menu-list">
-           <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
-           <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
-           <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
-           <li class="pure-menu-item"><a href="#" class="pure-menu-link">Blog</a></li>
-           <li class="pure-menu-item"><a href="#" class="pure-menu-link">GitHub</a></li>
-           <li class="pure-menu-item"><a href="#" class="pure-menu-link">Twitter</a></li>
-           <li class="pure-menu-item"><a href="#" class="pure-menu-link">Apple</a></li>
-           <li class="pure-menu-item"><a href="#" class="pure-menu-link">Google</a></li>
-           <li class="pure-menu-item"><a href="#" class="pure-menu-link">Wang</a></li>
-           <li class="pure-menu-item"><a href="#" class="pure-menu-link">Yahoo</a></li>
-           <li class="pure-menu-item"><a href="#" class="pure-menu-link">W3C</a></li>
-       </ul>
-   </div>
-</div>
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m8">
+          <!--
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">event</i></h2>
+            <h5 class="center">Upcoming Events</h5>
 
-<div class="pure-g-r">
-    <div class="pure-u-1-3 pure-u-md-1-3 pure-u-lg-1-3 ">
-
-        <figure id="clubPres">
-                <img id="presImg" class="picture" alt="Rep Women club pres" src="images/celeste.ellich.jpg">
-                <figcaption> Celeste Ellich <br/>Our President </figcaption>
-        </figure>
-        <p id="presWords" >
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
+          -->
+          <figure id="clubPres">
+            <img id="presImg" class="picture" alt="Rep Women club pres" src="images/celeste.ellich.jpg">
+            <figcaption> Celeste Ellich <br/>Our President </figcaption>
+          </figure>
+          <p id="presWords" >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id massa sed arcu porttitor ullamcorper. Fusce id leo urna. Sed elit ante, pretium at velit sed, accumsan facilisis nulla. Integer in dui pulvinar, hendrerit elit vitae, malesuada sapien.
             In imperdiet porta turpis. Donec varius tempus ante non tristique. Nunc ac lacus consectetur, varius ex at, tincidunt ante.
             Nulla nec accumsan risus, id ullamcorper nunc. Quisque et sapien eget felis gravida egestas id at enim. Etiam risus nulla, eleifend eu magna non, venenatis sagittis ante.
@@ -86,96 +74,130 @@
             Donec magna nisi, rutrum at mauris nec, hendrerit imperdiet quam. Fusce at nunc a dolor sollicitudin pretium. Mauris eget ex quis lacus gravida efficitur.
             Vestibulum at odio quis est venenatis convallis et sit amet enim. Praesent dignissim lacus at libero pharetra dictum.
             Integer pretium sed orci a tempor.
-        </p>
-    </div>
+          </p>
+        </div>
 
-    <div class="pure-u-1-3 pure-u-md-1-3 pure-u-lg-1-3 ">
-
+        <div class="col s12 m4">
+          <div class="icon-block">
             <a href="calendar.html">
-                <img src="images/calendar.png" alt="calendar Icon">
+               <h2 class="center brown-text"><i class="material-icons">event</i> </h2>
             </a>
-        <h5 class="capt">Upcoming Events</h5>
+            <h5 class="center">Upcoming Events</h5>
+          </div>
+
+        </div>
+
+        <!--
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+         -->
+      </div>
+
     </div>
+  </div>
 
-</div>
 
-<div class="pure-g-r">
-    <div class="clearout"></div>
-    <div class="pure-u-1-3 pure-u-md-1-3 pure-u-lg-1-3 ">
-        <ul id="flexiselDemo2">
-            <li><img class="carousel-itm" src="images/043.jpg" alt="MLK Day Parade" /></li>
-            <li><img class="carousel-itm" src="images/elephants.png" alt="Elephant" /></li>
-            <li><img class="carousel-itm" src="images/125.jpg" alt="Rep women meeting" /></li>
-            <li><img class="carousel-itm" src="images/penguins.png" alt="Penguins" /></li>
-        </ul>
-       <h4> Recent Events </h4>
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <!--
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          -->
+        </div>
+      </div>
     </div>
-</div>
+    <div class="parallax"><img src="images/new-capitol-building.jpg" alt="FL State Capital img 2"></div>
+  </div>
 
-    <script src="js/index.js"></script>
-    <script>
-        $(window).load(function() {
-            $("#flexiselDemo4").flexisel();
+  <div class="container">
+    <div class="section">
 
-            $("#flexiselDemo2").flexisel({
-                visibleItems: 3,
-                itemsToScroll: 3,
-                animationSpeed: 400,
-                infinite: true,
-                navigationTargetSelector: null,
-                autoPlay: {
-                    enable: false,
-                    interval: 5000,
-                    pauseOnHover: true
-                },
-                responsiveBreakpoints: {
-                    portrait: {
-                        changePoint:480,
-                        visibleItems: 1,
-                        itemsToScroll: 1
-                    },
-                    landscape: {
-                        changePoint:640,
-                        visibleItems: 2,
-                        itemsToScroll: 2
-                    },
-                    tablet: {
-                        changePoint:768,
-                        visibleItems: 3,
-                        itemsToScroll: 3
-                    }
-                },
-                loaded: function(object) {
-                    console.log('Slider loaded...');
-                },
-                before: function(object){
-                    console.log('Before transition...');
-                },
-                after: function(object) {
-                    console.log('After transition...');
-                },
-                resize: function(object){
-                    console.log('After resize...');
-                }
-            });
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat.
+            Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a
+            sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam,
+            eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat.
+            Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+            Curae;</p>
+        </div>
+      </div>
 
-            $("#flexiselDemo3").flexisel({
-                visibleItems: 3,
-                itemsToScroll: 1,
-                autoPlay: {
-                    enable: true,
-                    interval: 5000,
-                    pauseOnHover: true
-                }
-            });
+    </div>
+  </div>
 
-            $("#flexiselDemo1").flexisel({
-                infinite: false
-            });
+<!---
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+-->
+  <!-- Photo Carousel -->
 
-        });
-    </script>
-</div>
-</body>
+  <div class="carousel ">
+    <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+    <a class="carousel-item" href="#two!"><img src="images/043.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="images/125-lightbox.JPG"></a>
+    <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+    <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+  </div>
 
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About US</h5>
+          <!--
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time
+            job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+           -->
+          <p class="left-align  grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat.
+            Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a
+            sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam,
+            eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat.
+            Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+            Curae;</p>
+
+         </div>
+
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="https://www.facebook.com/browardrepublicanparty/">BREC</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
